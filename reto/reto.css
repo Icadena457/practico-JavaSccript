@@ -1,0 +1,147 @@
+:root {
+    --background: #006778;
+    --tittles: #FFD124;
+    --first-box: #0093AB;
+    --second-box: #00AFC1;
+    --button: #F9EFEF;
+    --letras: #ffff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: var(--background);
+}
+
+header h1 {
+    position: absolute;
+    width: 800px;
+    height: 85px;
+    left: 435px;
+    top: 65px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: var(--tittles);
+}
+.secondaryTittle {
+    position: absolute;
+    width: 445px;
+    height: 62px;
+    left: 535px;
+    top: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: var(--tittles);
+}
+
+form {
+    position: absolute;
+    width: 800px;
+    height: 366px;
+    left: 296px;
+    top: 230px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    background: #0093AB;
+    border-radius: 40px;
+}
+
+form .sueldo {
+    font-size: 3rem;
+    margin: 45px auto 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: var(--letras);
+    border: none;
+}
+.inputGastos, .inputSueldo {
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 2.5rem;
+    outline: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    color: rgb(59, 57, 57);
+    text-align: center;
+}
+.inputSueldo {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 283px;
+    height: 48px;
+    margin: 0 auto;
+    background-color: var(--button);
+    border-radius: 35px;
+    border: none;
+}
+form .gastos {
+    font-size: 3rem;
+    margin: 45px auto 0;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: var(--letras);
+    border: none;
+}
+.inputGastos {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 283px;
+    height: 48px;
+    margin: 0 auto;
+    background-color: var(--button);
+    border-radius: 35px;
+    border: none;
+}
+.botonDeuda {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.botonAhorro {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.botonDeuda, .botonAhorro {
+    width: 200px;
+    height: 40px;
+    margin: 45px auto 0;
+    font-size: 2.8rem;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--tittles);
+}
+.answerD {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.answerA {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.answerD, .answerA {
+    width: 283px;
+    height: 48px;
+    background-color: var(--button);    
+    border-radius: 35px;
+    border: none;
+}
+p {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(59, 57, 57);
+}
