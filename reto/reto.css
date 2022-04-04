@@ -21,7 +21,7 @@ header h1 {
     position: absolute;
     width: 800px;
     height: 85px;
-    left: 435px;
+    left: 425px;
     top: 55px;
     font-style: normal;
     font-weight: 500;
@@ -33,7 +33,7 @@ header h1 {
     position: absolute;
     width: 445px;
     height: 62px;
-    left: 535px;
+    left: 525px;
     top: 135px;
     font-style: normal;
     font-weight: 500;
@@ -48,7 +48,7 @@ form {
     padding: 0 30px 30px;
     width: 800px;
     height: 366px;
-    left: 296px;
+    left: 286px;
     top: 235px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
