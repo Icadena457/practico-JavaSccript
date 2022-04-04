@@ -22,7 +22,7 @@ header h1 {
     width: 800px;
     height: 85px;
     left: 435px;
-    top: 65px;
+    top: 55px;
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
@@ -34,7 +34,7 @@ header h1 {
     width: 445px;
     height: 62px;
     left: 535px;
-    top: 150px;
+    top: 135px;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -45,30 +45,33 @@ header h1 {
 
 form {
     position: absolute;
+    padding: 0 30px 30px;
     width: 800px;
     height: 366px;
     left: 296px;
-    top: 230px;
+    top: 235px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
 
-    background: #0093AB;
     border-radius: 40px;
+    background: linear-gradient(145deg, #006e80, #005d6c);
+    box-shadow:  22px 22px 44px #005260,
+                 -22px -22px 44px #007c90;
 }
 
 form .sueldo {
     font-size: 3rem;
-    margin: 45px auto 0;
+    margin: 35px auto 0;
     grid-column: 1/2;
     grid-row: 1/2;
     color: var(--letras);
     border: none;
 }
 .inputGastos, .inputSueldo {
-    margin: 0 auto;
+    margin: 35px auto;
     padding: 15px;
     font-size: 2.5rem;
     outline: none;
@@ -89,7 +92,7 @@ form .sueldo {
 }
 form .gastos {
     font-size: 3rem;
-    margin: 45px auto 0;
+    margin: 35px auto 0;
     grid-column: 1/2;
     grid-row: 3/4;
     color: var(--letras);
@@ -116,7 +119,7 @@ form .gastos {
 .botonDeuda, .botonAhorro {
     width: 200px;
     height: 40px;
-    margin: 45px auto 0;
+    margin: 35px auto 20px;
     font-size: 2.8rem;
     color: #ffff;
     border: none;
